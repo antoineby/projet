@@ -1,0 +1,15 @@
+----------- INIT et DEPOT INITIAL ---------
+git init 
+voir la config : git config -l
+
+pour ajouter une entrée de config
+git config --global user.name 'Antoine Boury'
+
+pour remplacer une entrée existante 
+git config --global --replace-all user.name 'Antoine Boury'
+
+pour retier une entrée 
+git config --global --unset user.name
+
+-- relier le depot local au depot distant 
+git remote add origin https://github.com/antoineby/projet.git
