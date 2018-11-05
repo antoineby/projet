@@ -22,24 +22,3 @@ git commit -m "Depot initial"
 
 -- Envoi sur le depot distant 
 git push -u origin master 
-
------- GIT CREATION DE BRANCHE ------
-git branch recette 
--- on copie le projet sur la branche locale recette 
-git checkout recette 
-
-git branch -- pour voir les branches et l'étoile * indique la branche courante 
-
--- on fait nos modifs 
-git add --all (tout rajouter)
-git add page.php (ajouter un fichier précis)
-
-git commit -a -m "Premiere mise à jour"
-git push -u origin recette 
-
-COMMIT
--a all prise en compte des fichiers modifiés et supprimés 
--m "message" libéllé du commit 
-
-PUSH
--u (set upstream) alimenter le suivi en cas de succès du push 
