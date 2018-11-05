@@ -13,3 +13,12 @@ git config --global --unset user.name
 
 -- relier le depot local au depot distant 
 git remote add origin https://github.com/antoineby/projet.git
+
+-- ajouter les fichiers au projet local
+git add --all 
+
+-- commiter les fichiers du projet local 
+git commit -m "Depot initial"
+
+-- Envoi sur le depot distant 
+git push -u origin master 
